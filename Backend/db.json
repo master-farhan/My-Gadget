@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "feowfjiuwehfiweuf",
+      "username": "farhan",
+      "email": "mdfarhansadik76@gmail.com",
+      "password": "12345",
+      "isAdmin": true
+    },
+    {
+      "id": "MaQU6yUbRFH-DwE8HmVeQ",
+      "username": "mdfarhansadik",
+      "email": "mdfarhansadik76@gmail.com",
+      "password": "a",
+      "isAdmin": false
+    }
+  ],
+  "products": [],
+  "cart": []
+}
