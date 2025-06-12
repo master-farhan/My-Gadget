@@ -13,7 +13,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="pt-20">
+    <div className="pt-15">
       <MainRoutes />
     </div>
   );

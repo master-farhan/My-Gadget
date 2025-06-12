@@ -13,8 +13,48 @@
       "email": "mdfarhansadik76@gmail.com",
       "password": "a",
       "isAdmin": false
+    },
+    {
+      "id": "7wC4kg4OPv4cGZ64-o94I",
+      "username": "mdfarhansadik",
+      "email": "mdfarhansadik76@gmail.com",
+      "password": "123",
+      "isAdmin": false
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "id": "_WcJFtBrCdUbsgJf--56L",
+      "title": "Lenovo ThinkPlus XT95 Pro True Wireless Earbuds – Black",
+      "image": "https://dropshop.com.bd/wp-content/uploads/2025/03/image-upscaled-56-800x800.webp",
+      "price": "2100",
+      "description": "The Lenovo ThinkPlus XT95 Pro True Wireless Earbuds is now available in Bangladesh. Get the original products at the most affordable price at DROPSHOP.COM.BD and enjoy the quality with the promise of the best customer service in Bangladesh.\n\nFeatures:\n\nBT 5.1 technology ensures higher data transfer speed, more stable and fast connection, and lower power consumption.\nTrue wireless dual-ear design, left and right earphone channels are separated. It can be used solely or in pairs.\nAuto power on and fast pairing between left and right earbuds once opening the charging case lid. Easy and quick to pair with BT-enabled audio devices.\nTouch control design, no more pressure on your ears. Easy to control music and calls, and activate voice assistant.\nBuilt-in Mic on both earbuds with noise reduction enables hands-free call and delivers clearer talking sound in stereo mode.\nA 300mAh charging case can charge and store the earbuds. 30mAh battery in each earbud ensures about 4 hours of music time.",
+      "catagory": "Bluetooth"
+    },
+    {
+      "id": "EK1BkawkVQ3nOU13SFOek",
+      "title": "Hoco EW79 Bright ANC Touch Screen Bluetooth Earbuds – White",
+      "image": "https://dropshop.com.bd/wp-content/uploads/2025/03/1-4.webp",
+      "price": "1250",
+      "description": "Get The Hoco EW79 Bright ANC Touch Screen Bluetooth Earbuds Console in Bangladesh at DROPSHOP.COM.BD Enjoy top quality and unbeatable prices with the best customer service in Bangladesh\n\nFeatures:\nHigh-Fidelity Audio: Deep bass, balanced mids, and crystal-clear highs for a superior sound experience\nBluetooth 5.4 Connectivity: Fast pairing, stable connection, and low latency\nSmart LED Touch Screen: Displays battery levels and time, with direct touch functionality\nTouch Controls: Easily manage calls, music, and voice assistant functions\nNoise Isolation: Minimizes background noise for focused listening\nCompact & Lightweight: Comfortable ergonomic design for all-day use\nStylish Charging Case: Modern and travel-friendly with advanced features",
+      "catagory": "Tws"
+    },
+    {
+      "id": "UzNXPCJBqB8Twk3OYYLFH",
+      "title": "Geeoo T5 TWS Touch Control Mini Earbuds – Green",
+      "image": "https://dropshop.com.bd/wp-content/uploads/2025/04/image-upscaled-10-800x800.webp",
+      "price": "2300",
+      "description": "Playtime: Up to 35 hours (including charging case)\nBluetooth Version: 5.4\nConnection Range: Up to 10m\nCharging Port: USB-C for fast charging\nCharging Time: 1-1.5 hours (earbuds and case)\nControl Type: Intelligent Touch Controls\nBattery Type: Rechargeable Lithium-ion\nCompatibility: Smartphones, tablets, laptops, and other Bluetooth-enabled devices\nDesign: Compact and ergonomic for a comfortable, secure fit\nAudio Performance: Clear sound with stable connection and low latency\nAdditional Features: Lightweight design, portable charging case\n",
+      "catagory": "Tws"
+    },
+    {
+      "id": "IO55P_bU0m1pZeAL_1KEZ",
+      "title": "JELLICO TWS20 True Wireless Earbuds",
+      "image": "https://dropshop.com.bd/wp-content/uploads/2025/01/Jellico-TWS20.png-800x800.png",
+      "price": "1010",
+      "description": "Bluetooth: 5.2\nTransmission Distance: 10m\nFrequency Range: 50Hz-20KHz\nSupport Protocols: A2DP, AVRCP, HSP, HFP\nSpeaker: 8*5mm, 32Ω\nBattery Capacity: 30mAh (Earphones) / 200mAh (Charging Case)\nEarphone Charging Time: 1 hour\nBattery Case Charging Time: 2 hours\nBattery Case Charging Current: DC5V 500mA",
+      "catagory": "Tws"
+    }
+  ],
   "cart": []
 }

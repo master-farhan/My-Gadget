@@ -22,7 +22,7 @@ const CreateProduct = () => {
 
   return (
     <div className="h-[80vh] flex justify-center items-center px-5">
-      <div className="rounded-lg py-5 px-7 bg-white shadow-2xl flex items-center flex-col gap-1 w-full max-w-[400px]">
+      <div className="py-5 px-7 bg-white shadow-2xl flex items-center flex-col gap-1 w-full max-w-[400px]">
         <h1 className="text-2xl font-medium text-center pb-3">
           Create a Product
         </h1>
@@ -34,7 +34,7 @@ const CreateProduct = () => {
           <input
             {...register("title")}
             required
-            className="mt-1 border rounded py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
+            className="mt-1 border py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
             type="text"
             id="title"
             placeholder="Enter your title"
@@ -43,7 +43,7 @@ const CreateProduct = () => {
           <input
             {...register("image")}
             required
-            className="mt-1 border rounded py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
+            className="mt-1 border py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
             type="url"
             placeholder="Url"
           />
@@ -51,7 +51,7 @@ const CreateProduct = () => {
           <input
             {...register("price")}
             required
-            className="mt-1 border rounded py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
+            className="mt-1 border py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
             type="number"
             placeholder="Price"
           />
@@ -59,7 +59,7 @@ const CreateProduct = () => {
           <textarea
             {...register("description")}
             required
-            className="mt-1 border rounded py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
+            className="mt-1 border py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
             type="text"
             placeholder="Enter product description"
             id="description"
@@ -68,13 +68,13 @@ const CreateProduct = () => {
           <input
             {...register("catagory")}
             required
-            className="mt-1 border rounded py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
+            className="mt-1 border py-1 px-3 border-[#78B04F55] outline-none focus:border-[#78B04F]"
             type="text"
             id="catagory"
             placeholder="Product Catagory"
           />
           <br />
-          <button className="hover:bg-[#78B04F] border border-[#78B04F] hover:text-white text-[#78B04F] transition-all duration-150 p-2 rounded-lg cursor-pointer font-medium">
+          <button className="hover:bg-[#78B04F] border border-[#78B04F] hover:text-white text-[#78B04F] transition-all duration-150 p-2-lg cursor-pointer font-medium">
             Create Product
           </button>
         </form>

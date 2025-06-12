@@ -1,5 +1,5 @@
 import axios from "../../api/axiosCofig";
-import { loadUser } from "../reducers/userSlice";
+import { loadUser, removeUser } from "../reducers/userSlice";
 
 export const asyncCurrentUser = (user) => async (dispatch, getstate) => {
   try {
@@ -11,9 +11,19 @@ export const asyncCurrentUser = (user) => async (dispatch, getstate) => {
   }
 };
 
+export const asyncLoadusers = () => async (dispatch, getstate) => {
+  try {
+    const { data } = await axios.get("/users");
+    dispatch(loadUser(data));
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 export const asyncLogOutUser = (user) => async (dispatch, getstate) => {
   try {
     localStorage.removeItem("user");
+    dispatch(removeUser());
   } catch (error) {
     console.log(error);
   }
@@ -24,11 +34,11 @@ export const asyncLoginUser = (user) => async (dispatch, getstate) => {
     const { data } = await axios.get(
       `/users?email=${user.email}&password=${user.password}`
     );
-    console.log(data[0]);
-
+    dispatch(loadUser());
     if (data[0] != undefined) {
       localStorage.setItem("user", JSON.stringify(data[0]));
     }
+    dispatch(loadUser());
   } catch (error) {
     console.log(error);
   }
