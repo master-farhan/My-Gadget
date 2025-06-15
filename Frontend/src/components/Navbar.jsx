@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { GrMenu } from "react-icons/gr";
 import { useSelector } from "react-redux";
@@ -22,11 +22,14 @@ const Navbar = () => {
         My Gadget
       </h2>
 
-      {/* Mobile Menu Icon */}
-      <GrMenu
-        className="md:hidden text-2xl cursor-pointer"
-        onClick={toggleNav}
-      />
+      <span className="flex gap-5">
+        {/* Search  */}
+        {/* Mobile Menu Icon */}
+        <GrMenu
+          className="md:hidden text-2xl cursor-pointer"
+          onClick={toggleNav}
+        />
+      </span>
 
       {/* Navigation Links */}
       <nav
@@ -36,7 +39,7 @@ const Navbar = () => {
       >
         <NavLink
           className={({ isActive }) =>
-            `px-4 rounded-2xl ${
+            `rounded-2xl ${
               isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
             }`
           }
@@ -47,7 +50,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           className={({ isActive }) =>
-            `px-4 rounded-2xl ${
+            `rounded-2xl ${
               isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
             }`
           }
@@ -58,7 +61,20 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           className={({ isActive }) =>
-            `px-4 rounded-2xl ${
+            `rounded-2xl md:mr-[20vw] ${
+              isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
+            }`
+          }
+          to="/about"
+          onClick={() => setIsNavOpen(false)}
+        >
+          About
+        </NavLink>
+
+        {/* Search here */}
+        <NavLink
+          className={({ isActive }) =>
+            `rounded-2xl ${
               isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
             }`
           }
@@ -67,43 +83,45 @@ const Navbar = () => {
         >
           Cart
         </NavLink>
-        {admin ? (
-          <NavLink
-            className={({ isActive }) =>
-              `px-4 rounded-2xl ${
-                isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
-              }`
-            }
-            to="/admin"
-            onClick={() => setIsNavOpen(false)}
-          >
-            Admin
-          </NavLink>
-        ) : isLogin ? (
-          <NavLink
-            className={({ isActive }) =>
-              `px-4 rounded-2xl ${
-                isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
-              }`
-            }
-            to="/profile-user"
-            onClick={() => setIsNavOpen(false)}
-          >
-            My Account
-          </NavLink>
-        ) : (
-          <NavLink
-            className={({ isActive }) =>
-              `px-4 rounded-2xl ${
-                isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
-              }`
-            }
-            to="/login"
-            onClick={() => setIsNavOpen(false)}
-          >
-            Login
-          </NavLink>
-        )}
+        <span className="flex flex-col md:flex-row items-center gap-5">
+          {admin ? (
+            <NavLink
+              className={({ isActive }) =>
+                `rounded-2xl ${
+                  isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
+                }`
+              }
+              to="/admin"
+              onClick={() => setIsNavOpen(false)}
+            >
+              Admin Pannel
+            </NavLink>
+          ) : isLogin ? (
+            <NavLink
+              className={({ isActive }) =>
+                `rounded-2xl ${
+                  isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
+                }`
+              }
+              to={`/profile-user/${isLogin?.id}`}
+              onClick={() => setIsNavOpen(false)}
+            >
+              My Account
+            </NavLink>
+          ) : (
+            <NavLink
+              className={({ isActive }) =>
+                `rounded-2xl ${
+                  isActive ? "text-[#78B04F]" : "hover:text-[#78B04F]"
+                }`
+              }
+              to="/login"
+              onClick={() => setIsNavOpen(false)}
+            >
+              Login
+            </NavLink>
+          )}
+        </span>
       </nav>
     </header>
   );

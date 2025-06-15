@@ -19,11 +19,11 @@ const ProductCard = () => {
             src={product.image}
             alt={product.title}
           />
-          <h2 className="pt-4 md:pb-2 px-2 font-medium md:px-4 text-lg md:text-xl">
-            {product.title.slice(0, 20)}...
+          <h2 className="pt-4 md:pb-2 px-2 font-medium md:px-4 text-lg md:text-lg">
+            {product.title.slice(0, 35)}..
           </h2>
         </Link>{" "}
-        <div className="flex flex-col p-2 md:pb-4 md:px-4 md:justify-between  gap-3">
+        <div className="flex flex-col px-2 md:pb-4 md:px-4 md:justify-between  gap-3">
           <p className="md:text-lg text-[#78B04F] font-bold">
             ${product.price}
           </p>
@@ -39,7 +39,7 @@ const ProductCard = () => {
   });
 
   return (
-    <div className="p-5 md:px-10 lg:px-[5%] lg:pl-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 lg:gap-10">
+    <div className="p-5 md:px-10 lg:px-[5%] lg:pl-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 lg:gap-5">
       {renderProduct}
     </div>
   );
