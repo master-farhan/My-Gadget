@@ -1,43 +1,44 @@
+// /src/store/actions/productActions.jsx
+
 import axios from "../../api/axiosCofig";
 import { loadproduct } from "../reducers/productSlice";
 
-
-// Load 
-export const asyncLoadProducts = () => async (dispatch, getstate) => {
+// Load all products
+export const asyncLoadProducts = () => async (dispatch, getState) => {
   try {
     const { data } = await axios.get("/products");
     dispatch(loadproduct(data));
   } catch (error) {
-    console.log(error);
+    console.error("Failed to load products:", error);
   }
 };
 
-// Create 
-export const asyncCreateProduct = (product) => async (dispatch, getstate) => {
+// Create a new product
+export const asyncCreateProduct = (product) => async (dispatch, getState) => {
   try {
     await axios.post("/products", product);
     dispatch(asyncLoadProducts());
   } catch (error) {
-    console.log(error);
+    console.error("Failed to create product:", error);
   }
 };
 
-// Update 
-export const asyncUpdateProduct = (id,product) => async (dispatch, getstate) => {
+// Update an existing product by id
+export const asyncUpdateProduct = (id, product) => async (dispatch, getState) => {
   try {
-    await axios.patch("/products/"+ id, product);
+    await axios.patch("/products/" + id, product);
     dispatch(asyncLoadProducts());
   } catch (error) {
-    console.log(error);
+    console.error("Failed to update product:", error);
   }
 };
 
-// Delete 
-export const asyncDeleteteProduct = (id) => async (dispatch, getstate) => {
+// Delete a product by id
+export const asyncDeleteProduct = (id) => async (dispatch, getState) => {
   try {
     await axios.delete("/products/" + id);
     dispatch(asyncLoadProducts());
   } catch (error) {
-    console.log(error);
+    console.error("Failed to delete product:", error);
   }
 };

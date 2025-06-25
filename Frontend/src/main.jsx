@@ -6,6 +6,8 @@ import { store } from "./store/store";
 import { Provider } from "react-redux";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
+import { ToastContainer, toast } from "react-toastify";
+
 
 createRoot(document.getElementById("root")).render(
   <Provider store={store}>
@@ -13,6 +15,7 @@ createRoot(document.getElementById("root")).render(
       <Navbar />
       <App />
       <Footer />
+      <ToastContainer />
     </BrowserRouter>
   </Provider>
 );

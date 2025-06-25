@@ -18,6 +18,7 @@ const Register = () => {
   const RegisterHandeler = (user) => {
     user.id = nanoid();
     user.isAdmin = false;
+    user.cart = [];
     dispatch(asyncRegisterUser(user));
     navigate("/login");
   };
@@ -83,7 +84,13 @@ const Register = () => {
           <br />
           <p className=" text-center">
             Already have an account?{" "}
-            <span onClick={()=>navigate("/login")} className="text-blue-400 cursor-pointer">Sign in</span> here
+            <span
+              onClick={() => navigate("/login")}
+              className="text-blue-400 cursor-pointer"
+            >
+              Sign in
+            </span>{" "}
+            here
           </p>
         </form>
       </div>
