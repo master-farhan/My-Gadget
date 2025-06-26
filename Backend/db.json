@@ -5,56 +5,177 @@
       "username": "farhan",
       "email": "mdfarhansadik76@gmail.com",
       "password": "12345",
-      "isAdmin": true
+      "isAdmin": true,
+      "cart": [
+        {
+          "product": {
+            "id": "IO55PbU0m1pZeAL_1KEZ",
+            "title": "JELLICO TWS20 True Wireless Earbuds",
+            "image": "https://dropshop.com.bd/wp-content/uploads/2025/01/Jellico-TWS20.png-800x800.png",
+            "price": "1010",
+            "description": "Bluetooth: 5.2\nTransmission Distance: 10m\nFrequency Range...",
+            "category": "Earbuds"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "hYbq4ma4HpB8jNedtntDt",
+            "title": "Octopus Tripod With Ball Head- Best For DSLR Or Smartphone Vlogging & Table Stand",
+            "image": "https://mygadget.com.bd/wp-content/uploads/2024/09/Octopus-Tripod.jpg.webp",
+            "price": "690",
+            "description": "Specification:\nOctopus tripod\nModel: jm-801\nTripod Head: Ball Shape\nApplicable Models: Cell Phone/Camera\nSize: 30 CM*5 CM\nAffordable Weight: 1.2kg\nMaterial: High elastic-plastic\nWeight: 0.32kg",
+            "category": "Tripod"
+          },
+          "quantity": 1
+        }
+      ]
     },
     {
-      "id": "MaQU6yUbRFH-DwE8HmVeQ",
+      "id": "jr7X0JxkEBkZdzz1jhpOc",
       "username": "mdfarhansadik",
       "email": "mdfarhansadik76@gmail.com",
-      "password": "a",
-      "isAdmin": false
-    },
-    {
-      "id": "7wC4kg4OPv4cGZ64-o94I",
-      "username": "mdfarhansadik",
-      "email": "mdfarhansadik76@gmail.com",
-      "password": "123",
-      "isAdmin": false
+      "password": "1",
+      "isAdmin": false,
+      "cart": [
+        {
+          "product": {
+            "id": "UzNXPCJBqB8Twk3OYLFH",
+            "title": "Geeoo T5 TWS Touch Control Mini Earbuds – Green",
+            "image": "https://dropshop.com.bd/wp-content/uploads/2025/04/image-upscaled-10-800x800.webp",
+            "price": "2300",
+            "description": "Playtime: Up to 35 hours (including charging case)...",
+            "category": "Earbuds"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "hYbq4ma4HpB8jNedtntDt",
+            "title": "Octopus Tripod With Ball Head- Best For DSLR Or Smartphone Vlogging & Table Stand",
+            "image": "https://mygadget.com.bd/wp-content/uploads/2024/09/Octopus-Tripod.jpg.webp",
+            "price": "690",
+            "description": "Specification:\nOctopus tripod\nModel: jm-801\nTripod Head: Ball Shape\nApplicable Models: Cell Phone/Camera\nSize: 30 CM*5 CM\nAffordable Weight: 1.2kg\nMaterial: High elastic-plastic\nWeight: 0.32kg",
+            "category": "Tripod"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "cszLxlVzjqgqP_e8u8cTj",
+            "title": "Odio Wireless Microphone For Type C Devices (WM2c)",
+            "image": "https://mygadget.com.bd/wp-content/uploads/2024/09/original_odio_wireless_microphone_for_type_c_devices_wm2c_.jpg.webp",
+            "price": "363",
+            "description": "Specifications:\nBrand: Odio\nProduct name: Wireless microphone\nType of microphone: capacitive\nDirectivity: omnidirectional\nFrequency response: 50HZ-18khz\nSNR: 64dBm\nOpen barrier-free effective distance: ≈20 meters (65.6 feet)\nHuman body barrier use distance: ≈7 meters (22.9 feet)\nCharging time: 1.5 hours\nDuration: about 5.5 hours\nCharging input: 5V/1A.",
+            "category": "Microphone"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "UKDCjFZFlZSA-p3lPBgC4",
+            "title": "Multifunctional Food Grinder – 0924",
+            "image": "https://mygadget.com.bd/wp-content/uploads/2025/02/IMG_20250214_092104.webp",
+            "price": "787",
+            "description": "Features:\nEffortlessly grinds spices and dry ingredients in seconds.\nKeeps your family safe from harmful additives in store-bought spices.\nAllows you to grind fresh spices at home for better health and flavor.\nPerfect for dry chilies, turmeric, black pepper, cardamom, fenugreek, mustard, cinnamon, rice, lentils, nuts, and more.\nTime-Saving: Grind any ingredient into powder in just 10 seconds.\nUser-Friendly Design: Press the On/Off button to start grinding, release to stop.\nIdeal for kitchens looking to save time and effort.",
+            "category": "Grinder"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "cnRWLSs3cImKadVf-OYmc",
+            "title": "QCY Watch GS Bluetooth Calling Smartwatch",
+            "image": "https://mygadget.com.bd/wp-content/uploads/2024/08/qcy_watch_gs_bluetooth_calling_smartwatch-1.webp",
+            "price": "562",
+            "description": "Key Features:\nVivid Display: The 2.02-inch HD TFT display with a resolution of 320*385 pixels ensures sharp and detailed visuals.\nCustomizable Watch Faces: Access over 100 beautiful watch faces via the QCY APP to match your mood and style.\nHealth Monitoring: The built-in 24-hour heart rate monitor provides continuous tracking and alerts for potential heart conditions.\nFitness Tracking: Supports over 100 sports modes, making it the perfect companion for various workouts with high-accuracy sensors for calorie burn and workout duration.\nExtended Battery Life: Equipped with low-power consumption chips, the QCY Watch GS boasts an impressive 10-day battery life on a single charge.\nPersonalization:\nChoose from a variety of watch faces to match your style.\nCustomize your smartwatch to mirror your unique preferences.\nHealth and Fitness:\n24-hour heart rate monitoring for proactive health management.\nOver 100 sports modes for versatile fitness tracking.\nAccurate sensors for detailed insights into your workout progress.",
+            "category": "Smart Watch"
+          },
+          "quantity": 1
+        }
+      ]
     }
   ],
   "products": [
     {
-      "id": "_WcJFtBrCdUbsgJf--56L",
-      "title": "Lenovo ThinkPlus XT95 Pro True Wireless Earbuds – Black",
-      "image": "https://dropshop.com.bd/wp-content/uploads/2025/03/image-upscaled-56-800x800.webp",
-      "price": "2100",
-      "description": "The Lenovo ThinkPlus XT95 Pro True Wireless Earbuds is now available in Bangladesh. Get the original products at the most affordable price at DROPSHOP.COM.BD and enjoy the quality with the promise of the best customer service in Bangladesh.\n\nFeatures:\n\nBT 5.1 technology ensures higher data transfer speed, more stable and fast connection, and lower power consumption.\nTrue wireless dual-ear design, left and right earphone channels are separated. It can be used solely or in pairs.\nAuto power on and fast pairing between left and right earbuds once opening the charging case lid. Easy and quick to pair with BT-enabled audio devices.\nTouch control design, no more pressure on your ears. Easy to control music and calls, and activate voice assistant.\nBuilt-in Mic on both earbuds with noise reduction enables hands-free call and delivers clearer talking sound in stereo mode.\nA 300mAh charging case can charge and store the earbuds. 30mAh battery in each earbud ensures about 4 hours of music time.",
-      "catagory": "Bluetooth"
-    },
-    {
-      "id": "EK1BkawkVQ3nOU13SFOek",
-      "title": "Hoco EW79 Bright ANC Touch Screen Bluetooth Earbuds – White",
-      "image": "https://dropshop.com.bd/wp-content/uploads/2025/03/1-4.webp",
-      "price": "1250",
-      "description": "Get The Hoco EW79 Bright ANC Touch Screen Bluetooth Earbuds Console in Bangladesh at DROPSHOP.COM.BD Enjoy top quality and unbeatable prices with the best customer service in Bangladesh\n\nFeatures:\nHigh-Fidelity Audio: Deep bass, balanced mids, and crystal-clear highs for a superior sound experience\nBluetooth 5.4 Connectivity: Fast pairing, stable connection, and low latency\nSmart LED Touch Screen: Displays battery levels and time, with direct touch functionality\nTouch Controls: Easily manage calls, music, and voice assistant functions\nNoise Isolation: Minimizes background noise for focused listening\nCompact & Lightweight: Comfortable ergonomic design for all-day use\nStylish Charging Case: Modern and travel-friendly with advanced features",
-      "catagory": "Tws"
-    },
-    {
-      "id": "UzNXPCJBqB8Twk3OYYLFH",
+      "id": "UzNXPCJBqB8Twk3OYLFH",
       "title": "Geeoo T5 TWS Touch Control Mini Earbuds – Green",
       "image": "https://dropshop.com.bd/wp-content/uploads/2025/04/image-upscaled-10-800x800.webp",
       "price": "2300",
-      "description": "Playtime: Up to 35 hours (including charging case)\nBluetooth Version: 5.4\nConnection Range: Up to 10m\nCharging Port: USB-C for fast charging\nCharging Time: 1-1.5 hours (earbuds and case)\nControl Type: Intelligent Touch Controls\nBattery Type: Rechargeable Lithium-ion\nCompatibility: Smartphones, tablets, laptops, and other Bluetooth-enabled devices\nDesign: Compact and ergonomic for a comfortable, secure fit\nAudio Performance: Clear sound with stable connection and low latency\nAdditional Features: Lightweight design, portable charging case\n",
-      "catagory": "Tws"
+      "description": "Playtime: Up to 35 hours (including charging case)...",
+      "category": "Earbuds"
     },
     {
-      "id": "IO55P_bU0m1pZeAL_1KEZ",
-      "title": "JELLICO TWS20 True Wireless Earbuds",
-      "image": "https://dropshop.com.bd/wp-content/uploads/2025/01/Jellico-TWS20.png-800x800.png",
-      "price": "1010",
-      "description": "Bluetooth: 5.2\nTransmission Distance: 10m\nFrequency Range: 50Hz-20KHz\nSupport Protocols: A2DP, AVRCP, HSP, HFP\nSpeaker: 8*5mm, 32Ω\nBattery Capacity: 30mAh (Earphones) / 200mAh (Charging Case)\nEarphone Charging Time: 1 hour\nBattery Case Charging Time: 2 hours\nBattery Case Charging Current: DC5V 500mA",
-      "catagory": "Tws"
+      "id": "hYbq4ma4HpB8jNedtntDt",
+      "title": "Octopus Tripod With Ball Head- Best For DSLR Or Smartphone Vlogging & Table Stand",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2024/09/Octopus-Tripod.jpg.webp",
+      "price": "690",
+      "description": "Specification:\nOctopus tripod\nModel: jm-801\nTripod Head: Ball Shape\nApplicable Models: Cell Phone/Camera\nSize: 30 CM*5 CM\nAffordable Weight: 1.2kg\nMaterial: High elastic-plastic\nWeight: 0.32kg",
+      "category": "Tripod"
+    },
+    {
+      "id": "cszLxlVzjqgqP_e8u8cTj",
+      "title": "Odio Wireless Microphone For Type C Devices (WM2c)",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2024/09/original_odio_wireless_microphone_for_type_c_devices_wm2c_.jpg.webp",
+      "price": "363",
+      "description": "Specifications:\nBrand: Odio\nProduct name: Wireless microphone\nType of microphone: capacitive\nDirectivity: omnidirectional\nFrequency response: 50HZ-18khz\nSNR: 64dBm\nOpen barrier-free effective distance: ≈20 meters (65.6 feet)\nHuman body barrier use distance: ≈7 meters (22.9 feet)\nCharging time: 1.5 hours\nDuration: about 5.5 hours\nCharging input: 5V/1A.",
+      "category": "Microphone"
+    },
+    {
+      "id": "-QJ21ZMzb3H46LX1vKJWD",
+      "title": "Awei P37K 10000mAh Fast Charging Power Bank- Black Color",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2024/08/PhotoRoom-20240809_193125.png",
+      "price": "467",
+      "description": "Specification:\nModel: P37K\nCapacity: 10000mAh 37Wh/3.7V\nRated Capacity: 6200mAh\nType-C/Micro Input: DC 5V-2.1A\nUSB Output1/2: DC 5V-2.1A\nDual USB Output\nMicro USB/Type-C Input",
+      "category": "Power Bank"
+    },
+    {
+      "id": "cnRWLSs3cImKadVf-OYmc",
+      "title": "QCY Watch GS Bluetooth Calling Smartwatch",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2024/08/qcy_watch_gs_bluetooth_calling_smartwatch-1.webp",
+      "price": "562",
+      "description": "Key Features:\nVivid Display: The 2.02-inch HD TFT display with a resolution of 320*385 pixels ensures sharp and detailed visuals.\nCustomizable Watch Faces: Access over 100 beautiful watch faces via the QCY APP to match your mood and style.\nHealth Monitoring: The built-in 24-hour heart rate monitor provides continuous tracking and alerts for potential heart conditions.\nFitness Tracking: Supports over 100 sports modes, making it the perfect companion for various workouts with high-accuracy sensors for calorie burn and workout duration.\nExtended Battery Life: Equipped with low-power consumption chips, the QCY Watch GS boasts an impressive 10-day battery life on a single charge.\nPersonalization:\nChoose from a variety of watch faces to match your style.\nCustomize your smartwatch to mirror your unique preferences.\nHealth and Fitness:\n24-hour heart rate monitoring for proactive health management.\nOver 100 sports modes for versatile fitness tracking.\nAccurate sensors for detailed insights into your workout progress.",
+      "category": "Smart Watch"
+    },
+    {
+      "id": "UKDCjFZFlZSA-p3lPBgC4",
+      "title": "Multifunctional Food Grinder – 0924",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2025/02/IMG_20250214_092104.webp",
+      "price": "787",
+      "description": "Features:\nEffortlessly grinds spices and dry ingredients in seconds.\nKeeps your family safe from harmful additives in store-bought spices.\nAllows you to grind fresh spices at home for better health and flavor.\nPerfect for dry chilies, turmeric, black pepper, cardamom, fenugreek, mustard, cinnamon, rice, lentils, nuts, and more.\nTime-Saving: Grind any ingredient into powder in just 10 seconds.\nUser-Friendly Design: Press the On/Off button to start grinding, release to stop.\nIdeal for kitchens looking to save time and effort.",
+      "category": "Grinder"
+    },
+    {
+      "id": "gUuXlzZJTAt3dEzfAdeWG",
+      "title": "YUFENG-3388 Professional Foldable Heavy-Duty Tripod",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2024/09/YUNFENG-3388-Professional-Foldable-Heavy-Duty-Tripod-5.webp",
+      "price": "366",
+      "description": "Features:\nMaterial: Plastic\nTripod head type: Pan Heads\nMaterial: Plastic\nTripod head type: Pan Heads\nSpecifications:\nMaximum height: 146cm\nMinimum height: 46cm\nWeight: 1.3kg\nWeight: 3kg\nTripod foot width: 2cm\nMaterial: aluminum alloy, plastic\nThere are adjustable Panhead clamps\nRotate 360 degrees\nRubber feet, anti-slip",
+      "category": "Tripod"
+    },
+    {
+      "id": "hShFu0YnyUHnEFNY0V95O",
+      "title": "BOYA BY-DM500 Dynamic XLR Podcast Microphone",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2024/08/boya_by-dm500_dynamic_xlr_microphone-1-1.webp",
+      "price": "36536",
+      "description": "Key Features\nFor Podcasting, Vocals, and Speech\nFor Up-Close Vocal/Instrument Recording\nFocused Cardioid Pickup Pattern\nDynamic Capsule Picks up Less Background\nStandard XLR Connector for Audio Gear\nNo Batteries or Phantom Power Required\nAdjustable Mounting Bracket\nRugged All-Metal Construction\nFoam Windscreen Included",
+      "category": "Microphone"
+    },
+    {
+      "id": "DKBkxvJKcyjNxjyt7nR0c",
+      "title": "New Version WGP mini UPS 10400mAh – 5/12/12V",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2025/03/IMG_20250321_045606.jpg.webp",
+      "price": "4643",
+      "description": "Specifications:\nBattery Capacity: 10400mAh (38.48wh)\nType: multi-output mini ups\nBattery Life: 500 times/cycle\nmini UPS Input: 12V-2A\nOutput: 5V-1A, 12V-1A, 12V-1A\nWorking temperature: -20°C~65°C\nUPS IN jack: 5.5*2.1mm, OUT: 5V USB\nDC cable: 5.5*2.5mm\n",
+      "category": "Wifi"
+    },
+    {
+      "id": "6CJKT2923SvxnCZJs_bup",
+      "title": "GearUP SFL-100 Solar LED Flood Light",
+      "image": "https://mygadget.com.bd/wp-content/uploads/2024/10/gearup_sfl-100_solar_led_flood_light_-1.jpg.webp",
+      "price": "2345",
+      "description": "Features:\nModel: GearUP SFL-100\nWork time: 2 hours – 8 hours\nCharging method: USB charging + Solar charging\nSpecifications:\nType: 300w\nWattage: 300w\nBattery capacity: built-in battery 4800mAh\nProduct material: ABS\nProtection level: IP66\nLamp beads: 70 cob\nWork time: 2 hours – 8 hours\nProduct size: 21*17*5.2cm\n4 modes: warm light-neutral light-white light-red and blue flashing\nCharging method: USB charging + solar charging",
+      "category": "Led Light"
     }
-  ],
-  "cart": []
+  ]
 }
