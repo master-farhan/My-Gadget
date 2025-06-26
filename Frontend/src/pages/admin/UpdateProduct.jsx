@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
@@ -6,8 +7,10 @@ import { asyncUpdateProduct } from "../../store/actions/productActions";
 const UpdateProduct = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const products = useSelector((state) => state.productReducer.products);
   const { id } = useParams();
+  const products = useSelector((state) => state.productReducer.products);
+
+  const { register, handleSubmit, reset } = useForm();
 
   const product = products?.find((product) => product.id === id);
 
@@ -24,21 +27,9 @@ const UpdateProduct = () => {
   }, [product, reset]);
 
   const categories = [
-    "Bluetooth",
-    "Tws",
-    "Headphones",
-    "Tripod",
-    "Gaming",
-    "Neckband",
-    "Earphones",
-    "Keyboard",
-    "Speakers",
-    "Microphone",
-    "Grinder",
-    "Power Bank",
-    "Led Light",
-    "Smart Watch",
-    "Wifi"
+    "Bluetooth", "Tws", "Headphones", "Tripod", "Gaming", "Neckband",
+    "Earphones", "Keyboard", "Speakers", "Microphone", "Grinder", "Power Bank",
+    "Led Light", "Smart Watch", "Wifi"
   ];
 
   const UpdateProductHandler = (updatedProduct) => {
@@ -90,7 +81,6 @@ const UpdateProduct = () => {
             />
             <br />
 
-            {/* Category dropdown */}
             <select
               {...register("category")}
               required

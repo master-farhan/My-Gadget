@@ -113,7 +113,7 @@ const Products = () => {
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
-    setVisibleCount(8); // reset pagination when category changes
+    setVisibleCount(8);
   };
 
   const ProductGrid = ({ products }) => {
@@ -150,7 +150,7 @@ const Products = () => {
               <p className="text-[#78B04F] font-bold md:text-md">
                 ${parseFloat(product.price).toFixed(2)}
               </p>
-              {!currentUser.isAdmin && (
+              {currentUser && !currentUser.isAdmin && (
                 <button
                   className="flex items-center justify-center gap-2 py-1 px-3 border border-[#78B04F] text-[#78B04F] hover:bg-[#78B04F] hover:text-white transition-all rounded font-medium"
                   onClick={() => AddToCartHandler(product)}
@@ -240,7 +240,9 @@ const Products = () => {
           <ProductGrid products={filteredProducts} />
           {isEndReached && (
             <div className="text-center  py-10 text-[#78B04F] font-medium">
-              <p className="-ml-[6vw] lg:-ml-[20vw]">🎉 You have reached the end of the product list.</p>
+              <p className="-ml-[6vw] lg:-ml-[20vw]">
+                🎉 You have reached the end of the product list.
+              </p>
             </div>
           )}
         </main>

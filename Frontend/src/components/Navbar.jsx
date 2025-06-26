@@ -1,7 +1,14 @@
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { GrMenu } from "react-icons/gr";
-import { FaCartPlus, FaUserCircle, FaSignOutAlt, FaUserShield, FaSignInAlt } from "react-icons/fa";
+import {
+  FaCartPlus,
+  FaUserCircle,
+  FaSignOutAlt,
+  FaUserShield,
+  FaSignInAlt,
+} from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
 import { useSelector } from "react-redux";
 
 const Navbar = () => {
@@ -25,14 +32,27 @@ const Navbar = () => {
         My<span className="text-gray-700">Gadget</span>
       </h2>
 
-      <GrMenu
-        className="md:hidden text-2xl cursor-pointer"
-        onClick={toggleNav}
-      />
+      {!isNavOpen ? (
+        <>
+          <GrMenu
+            className="md:hidden text-[#78B04F] text-2xl cursor-pointer"
+            onClick={toggleNav}
+          />
+        </>
+      ) : (
+        <>
+          <IoMdClose
+            className="md:hidden text-[#78B04F] text-2xl cursor-pointer"
+            onClick={toggleNav}
+          />
+        </>
+      )}
 
       <nav
         className={`fixed md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent flex items-center flex-col md:flex-row md:items-center gap-6 md:gap-8 p-5 md:p-0 transition-all duration-300 shadow-md md:shadow-none z-40 ${
-          isNavOpen ? "scale-100 opacity-100" : "scale-95 opacity-0 md:scale-100 md:opacity-100 hidden md:flex"
+          isNavOpen
+            ? "scale-100 opacity-100"
+            : "scale-95 opacity-0 md:scale-100 md:opacity-100 hidden md:flex"
         }`}
       >
         <NavLink
@@ -79,7 +99,9 @@ const Navbar = () => {
                 onClick={() => setIsNavOpen(false)}
                 className={({ isActive }) =>
                   `flex items-center gap-2 ${
-                    isActive ? "text-[#78B04F]" : "hover:text-[#78B04F] text-gray-700"
+                    isActive
+                      ? "text-[#78B04F]"
+                      : "hover:text-[#78B04F] text-gray-700"
                   }`
                 }
               >
@@ -92,7 +114,9 @@ const Navbar = () => {
                   onClick={() => setIsNavOpen(false)}
                   className={({ isActive }) =>
                     `flex items-center gap-2 ${
-                      isActive ? "text-[#78B04F]" : "hover:text-[#78B04F] text-gray-700"
+                      isActive
+                        ? "text-[#78B04F]"
+                        : "hover:text-[#78B04F] text-gray-700"
                     }`
                   }
                 >
@@ -104,7 +128,9 @@ const Navbar = () => {
                   onClick={() => setIsNavOpen(false)}
                   className={({ isActive }) =>
                     `flex items-center gap-2 ${
-                      isActive ? "text-[#78B04F]" : "hover:text-[#78B04F] text-gray-700"
+                      isActive
+                        ? "text-[#78B04F]"
+                        : "hover:text-[#78B04F] text-gray-700"
                     }`
                   }
                 >
@@ -126,7 +152,9 @@ const Navbar = () => {
             onClick={() => setIsNavOpen(false)}
             className={({ isActive }) =>
               `flex items-center gap-2 ${
-                isActive ? "text-[#78B04F]" : "hover:text-[#78B04F] text-gray-700"
+                isActive
+                  ? "text-[#78B04F]"
+                  : "hover:text-[#78B04F] text-gray-700"
               }`
             }
           >
